@@ -57,7 +57,7 @@ javeiroInfiltrado.digaAlgo('é sempre mais verde.');
 
 Que tal usar um objeto?
 
-```
+```js
 const javeiroCamuflado = {
   frase: 'De grão em grão',
   digaAlgo(continuação) {
@@ -103,9 +103,15 @@ javeiroDisfarçado.digaAlgo('a galinha enche o papo.');
 ```
 
 Ta aqui pode ter complicado para alguns, mas espero que estejas aqui para aprender.
+
 A chamada da função "JaveiroDisfarçado" retorna um objeto com a função "digaAlgo", ou seja o "javeiroDisfarçado" (com letra minúscula) recebeu esse objeto.
+
+```js
 javeiroDisfarçado = { digaAlgo };
+```
+
 Assemelha-se a uma instância em Orientação a objetos, mas aqui tem outro nome, é "closure".
+
 O conteúdo do "javeiroDisfarçado" vem de dentro da função "JaveiroDisfarçado", logo ela está em outro escopo, ela acessa valores dali de dentro, o argumento "frase" por exemplo.
 
 ### Classe que tem até métodos estáticos junto
