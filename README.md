@@ -34,6 +34,7 @@ Só escrever uma função. Vou repetir muito isso aqui 😉.
 function digaAlgo() {
   return 'Água parada não move moinho';
 }
+
 digaAlgo(); // Água parada não move moinho.
 ```
 
@@ -46,6 +47,7 @@ class JaveiroInfiltrado {
   constructor() {
     this.frase = 'A grama do vizinho';
   }
+  
   digaAlgo(continuação) {
     return this.frase + ' ' + continuação;
   }
@@ -66,6 +68,7 @@ const javeiroCamuflado = {
     return this.frase + ' ' + continuação;
   }
 }
+
 javeiroCamuflado.digaAlgo('a galinha enche o papo.');
 // De grão em grão a galinha enche o papo.
 ```
@@ -79,13 +82,14 @@ class JaveiroInfiltrado {
   constructor(frase) {
     this.frase = frase;
   }
+  
   digaAlgo(continuação) {
     return this.frase + ' ' + continuação;
   }
 }
 
-const javeiroInfiltrado =
-  new JaveiroInfiltrado('A grama do vizinho');
+const javeiroInfiltrado = new JaveiroInfiltrado('A grama do vizinho');
+
 javeiroInfiltrado.digaAlgo('é sempre mais verde.');
 // A grama do vizinho é sempre mais verde.
 ```
@@ -97,9 +101,12 @@ function JaveiroDisfarçado(frase) {
   function digaAlgo(continuação) {
     return frase + ' ' + continuação;
   }
+  
   return { digaAlgo };
 }
+
 const javeiroDisfarçado = JaveiroDisfarçado('De grão em grão');
+
 javeiroDisfarçado.digaAlgo('a galinha enche o papo.');
 // De grão em grão a galinha enche o papo.
 ```
@@ -136,6 +143,7 @@ class JaveiroInfiltrado {
 }
 
 const javeiroInfiltrado = new JaveiroInfiltrado('Mais vale um pássaro na mão');
+
 javeiroInfiltrado.digaAlgo('do que dois voando.');
 // Mais vale um pássaro na mão do que dois voando.
 ```
@@ -158,6 +166,7 @@ function JaveiroDisfarçado(frase) {
 }
 
 const javeiroDisfarçado = JaveiroDisfarçado('De grão em grão');
+
 javeiroDisfarçado.digaAlgo('a galinha enche o papo.');
 // De grão em grão a galinha enche o papo.
 ```
