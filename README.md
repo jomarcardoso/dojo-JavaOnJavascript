@@ -210,9 +210,13 @@ console.log(variavel.int);
 Exemplo retirado de https://tableless.com.br/getters-e-setters-manipuladores-com-javascript/
 
 Como da para perceber, com ou sem os métodos acessaríamos da mesma forma, então só criamos os "gets" e "sets" quando precisar.
-Forma de escrever
+
+## Forma de escrever
+
 Agora vão reclamar que to pegando no pé.
-Aspas duplas em strings
+
+### Aspas duplas em strings
+
 Parece preciosismo.
 
 ```js
