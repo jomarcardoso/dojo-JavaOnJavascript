@@ -239,5 +239,8 @@ Mas acontece que no JS manipulamos o HTML e lá é usado aspas duplas.
 const elemento = document.querySelector('data-js="javeiro"');
 ```
 
-
 Se ali começasse com aspa dupla fecharia antes do desejado.
+
+## Debugar
+
+Costumo dizer que o debugger de javascript é o `console.log`, se no Java fosse interpretado como o Javascript tenho certeza que usariam essa praticidade lá também. Não digo que o debugger está excluído, mas na maioria dos casos ele da mais trabalho.
