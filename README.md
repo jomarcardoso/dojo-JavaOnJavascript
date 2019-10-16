@@ -33,6 +33,7 @@ function digaAlgo() {
   return 'Água parada não move moinho';
 }
 digaAlgo(); // Água parada não move moinho.
+```
 
 ### Usa o construtor sem argumentos
 
@@ -52,7 +53,11 @@ const javeiroInfiltrado = new JaveiroInfiltrado();
 
 javeiroInfiltrado.digaAlgo('é sempre mais verde.');
 // A grama do vizinho é sempre mais verde.
+```
+
 Que tal usar um objeto?
+
+```
 const javeiroCamuflado = {
   frase: 'De grão em grão',
   digaAlgo(continuação) {
