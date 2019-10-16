@@ -5,11 +5,13 @@ A maioria dos desenvolvedores frontend devem saber que o parte "java" do nome Ja
 Não importa o que façamos, se for repetido por um tempo adquirimos "manias" que tornam-nos mais rápido naquilo, mas de certa forma dependentes também.
 
 Indo ao ponto, Orientação a Objetos principalmente com Java é algo muito difundido, ensinado em faculdades e incentivado como ponto de entrada para a programação por muitos. Sem entrar em discussão sobre a forma correta de começar na programação, mas sim entender que muito do que aprendemos não é uma regra geral válida para qualquer linguagem de programação ou ambiente de trabalho.
+
 Então vou mencionado as manias herdadas para você identificar-se ou não como um "Javeiro" infiltrado. Muito do que trarei é uma relação do paradigma orientado a objetos com funcional.
 
 ## Todo código está dentro de classes
 
 Essa foi fácil de identificar, mas arrisco dizer que é uma das mais difícil de perder, conseguir deixar de instanciar tudo que ver, ter propriedades que não são atributos.
+
 Começando o desapego do mais fácil para o mais difícil.
 
 ### Usa apenas os métodos
@@ -123,15 +125,17 @@ class JaveiroInfiltrado {
   constructor(frase) {
     this.frase = frase;
   }
-digaAlgo(continuação) {
+  
+  digaAlgo(continuação) {
     return JaveiroInfiltrado.concatenar(this.frase, continuação);
   }
-static concatenar(string1, string2) {
+  
+  static concatenar(string1, string2) {
     return string1 + ' ' + string2;
   }
 }
-const javeiroInfiltrado =
-  new JaveiroInfiltrado('Mais vale um pássaro na mão');
+
+const javeiroInfiltrado = new JaveiroInfiltrado('Mais vale um pássaro na mão');
 javeiroInfiltrado.digaAlgo('do que dois voando.');
 // Mais vale um pássaro na mão do que dois voando.
 ```
@@ -145,11 +149,14 @@ function JaveiroDisfarçado(frase) {
   function concatenar(string1, string2) {
     return string1 + ' ' + string2;
   }
+  
   function digaAlgo(continuação) {
     return concatenar(frase, continuação);
   }
+  
   return { digaAlgo };
 }
+
 const javeiroDisfarçado = JaveiroDisfarçado('De grão em grão');
 javeiroDisfarçado.digaAlgo('a galinha enche o papo.');
 // De grão em grão a galinha enche o papo.
@@ -166,14 +173,17 @@ Com função já demonstramos acima.
 ## Padrões de projeto
 
 Tão bonito usar os famosos "Design Patterns" do livro GOF, eles foram criados para atender especificamente as necessidades da linguagem C++ no paradigma OO.
+
 Os padrões de projeto devem ser usados para ajudar nas necessidade da linguagem e muitas não existem no Javascript.
+
 Há dois livros bem famosos que eu conheço sobre os padrões de projeto em Javascript:
-Learning JavaScript Design Patterns
-Padrões JavaScript
+- Learning JavaScript Design Patterns
+- Padrões JavaScript
 
 ### Get e Set em cada atributo
 
 Sabe por que usamos sempre "gets" e "sets" em Java? Porque as vezes precisamos colocar uma validação e então mantemos um padrão de sempre chamar o método correspondente.
+
 Em Javascript não precisamos chamar uma função para acessar o "get" e "set".
 
 ```js
