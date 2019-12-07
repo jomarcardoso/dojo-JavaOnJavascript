@@ -239,3 +239,9 @@ Se ali começasse com aspa dupla fecharia antes do desejado.
 ## Debugar
 
 Costumo dizer que o debugger de javascript é o `console.log`, se no Java fosse interpretado como o Javascript tenho certeza que usariam essa praticidade lá também. Não digo que o debugger está excluído, mas na maioria dos casos ele da mais trabalho.
+
+## Tratamento de erros
+
+### Console.log
+
+Espero que já tenham te falado, "console não é tratamento de erro". No backend faz sentido fazer um log de erro para podermos localizar a origem. No frontend você não vai escrever `console.log` ou `console.erorr` para o usuário, então podemos dar uma explicação visual para o usuário ou então apenas ignorar.
