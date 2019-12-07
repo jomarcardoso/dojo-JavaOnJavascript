@@ -196,27 +196,22 @@ Sabe por que usamos sempre "gets" e "sets" em Java? Porque as vezes precisamos c
 Em Javascript não precisamos chamar uma função para acessar o "get" e "set".
 
 ```js
-var variavel = {
-  valor: 0,
-  
-  get moeda() { // define o get moeda
-    return "R$ " + this.valor.toFixed(2).replace(".",",");
+const javeiroDisfarçado = {
+  frase: 'Mente vazia, oficina do diabo.',
+  get getFrase() {
+    return this.frase;
   },
-  get int() { // define o get integer
-    return this.valor;
-  },  
-  set int(i) {  // define o set
-  	this.valor = i;
+  set setFrase(frase) {
+    this.frase = frase;
   }
 }
 
-console.log(variavel.moeda);
-variavel.int = 123;
-console.log(variavel.moeda);
-variavel.int = 456;
-console.log(variavel.int);
+javeiroDisfarçado.frase; // Mente vazia, oficina do diabo.
+javeiroDisfarçado.getFrase; // Mente vazia, oficina do diabo.
+
+javeiroDisfarçado.setFrase = 'Papagaio que acompanha joão-de-barro vira ajudante de pedreiro';
+javeiroDisfarçado.frase; // Papagaio que acompanha joão-de-barro vira ajudante de pedreiro
 ```
-Exemplo retirado de https://tableless.com.br/getters-e-setters-manipuladores-com-javascript/
 
 Como da para perceber, com ou sem os métodos acessaríamos da mesma forma, então só criamos os "gets" e "sets" quando precisar.
 
