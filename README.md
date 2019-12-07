@@ -179,11 +179,6 @@ Não colocamos o concatenar dentro para dentro do JaveiroDisfarçado por alguns 
 - Pode ser testado
 - Não fica privado, pra que você precisaria de uma função privada?
 
-### Atributos privados
-
-Ainda não tem isso nativamente no Javascript, então vamos usar algo experimental que é o "#" antes do nome.
-Com função já demonstramos acima.
-
 ## Padrões de projeto
 
 Tão bonito usar os famosos "Design Patterns" do livro GOF, eles foram criados para atender especificamente as necessidades da linguagem C++ no paradigma OO.
