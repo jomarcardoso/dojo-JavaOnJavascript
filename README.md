@@ -172,7 +172,12 @@ javeiroDisfarçado.digaAlgo('a galinha enche o papo.');
 ```
 
 É, não tem nada demais, por que não estamos trabalhando com instâncias.
-Conseguiu perceber que a função "concatenar" não é retornada pelo "JaveiroDisfarçado"? Brincando criamos um método privado, assim como o atributo "frase" também é. O que temos acesso de dentro da função é o que ela retorna.
+
+Não colocamos o concatenar dentro para dentro do JaveiroDisfarçado por alguns motivos:
+
+- Pode ser reaproveitado, não está escondido em escopo.
+- Pode ser testado
+- Não fica privado, pra que você precisaria de uma função privada?
 
 ### Atributos privados
 
