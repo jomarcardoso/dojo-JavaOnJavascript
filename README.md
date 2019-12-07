@@ -125,7 +125,7 @@ O conteúdo do "javeiroDisfarçado" vem de dentro da função "JaveiroDisfarçad
 
 ### Classe que tem até métodos estáticos junto
 
-Claro que o desenvolvedor não colocará uma funcionalidade que é só usada ali em outro lugar só por que ela não usa o "this" da classe.
+Claro que o desenvolvedor não colocará uma funcionalidade, que é só usada ali, em um outro lugar, só por que ela não usa o "this" da classe, então ele usa o "static".
 
 ```js
 class JaveiroInfiltrado {
@@ -153,11 +153,11 @@ Diferente da forma anterior que tínhamos um objeto, aqui queremos enviar o par�
 Pra variar um pouco vamos usar função, aproveitando que já sabemos o que é "closure".
 
 ```js
-function JaveiroDisfarçado(frase) {
-  function concatenar(string1, string2) {
-    return string1 + ' ' + string2;
-  }
+function concatenar(string1, string2) {
+  return string1 + ' ' + string2;
+}
   
+function JaveiroDisfarçado(frase) {  
   function digaAlgo(continuação) {
     return concatenar(frase, continuação);
   }
