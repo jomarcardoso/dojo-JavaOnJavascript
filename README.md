@@ -1,4 +1,4 @@
-# O Java de JavaScript
+# O Java do JavaScript
 
 A maioria dos desenvolvedores frontend devem saber que o parte "java" do nome Javascript foi uma estratégia de marketing e não uma derivação da tecnologia.
 
