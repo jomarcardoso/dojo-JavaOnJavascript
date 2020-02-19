@@ -231,7 +231,7 @@ const frase = 'Javeiro disfarçado';
 Mas acontece que no JS manipulamos o HTML e lá é usado aspas duplas.
 
 ```js
-const elemento = document.querySelector('data-js="javeiro"');
+const elemento = document.querySelector('[data-js="javeiro"]');
 ```
 
 Se ali começasse com aspa dupla fecharia antes do desejado.
