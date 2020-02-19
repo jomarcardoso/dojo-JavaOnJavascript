@@ -2,7 +2,7 @@
 
 A maioria dos desenvolvedores frontend devem saber que o parte "java" do nome Javascript foi uma estratégia de marketing e não uma derivação da tecnologia.
 
-Não importa o que façamos, se for repetido por um tempo adquirimos "manias" que tornam-nos mais rápido naquilo, mas de certa forma dependentes também.
+Não importa o que façamos, se for repetido por um tempo, adquirimos "manias" que tornam-nos mais rápido naquilo, mas de certa forma dependentes também.
 
 Indo ao ponto, Orientação a Objetos principalmente com Java é algo muito difundido, ensinado em faculdades e incentivado como ponto de entrada para a programação por muitos. Sem entrar em discussão sobre a forma correta de começar na programação, mas sim entender que muito do que aprendemos não é uma regra geral válida para qualquer linguagem de programação ou ambiente de trabalho.
 
