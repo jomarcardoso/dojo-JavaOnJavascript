@@ -6,7 +6,7 @@ Não importa o que façamos, se for repetido por um tempo, adquirimos "manias" q
 
 Indo ao ponto, Orientação a Objetos principalmente com Java é algo muito difundido, ensinado em faculdades e incentivado como ponto de entrada para a programação por muitos. Sem entrar em discussão sobre a forma correta de começar na programação, mas sim entender que muito do que aprendemos não é uma regra geral válida para qualquer linguagem de programação ou ambiente de trabalho.
 
-Então vou mencionado as manias herdadas para você identificar-se ou não como um "Javeiro" infiltrado. Muito do que trarei é uma relação do paradigma orientado a objetos com funcional.
+Então vou mencionando algumas dessas manias para você identificar-se ou não como um "Javeiro" infiltrado. Muito do que trarei é uma relação do paradigma orientado a objetos com funcional.
 
 ## Todo código está dentro de classes
 
