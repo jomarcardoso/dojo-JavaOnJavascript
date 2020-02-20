@@ -231,7 +231,7 @@ const frase = 'Javeiro disfarçado';
 Mas acontece que no JS manipulamos o HTML e lá é usado aspas duplas.
 
 ```js
-const elemento = document.querySelector('data-js="javeiro"');
+const elemento = document.querySelector('[data-js="javeiro"]');
 ```
 
 Se ali começasse com aspa dupla fecharia antes do desejado.
@@ -242,6 +242,6 @@ Costumo dizer que o debugger de javascript é o `console.log`, se no Java fosse 
 
 ## Tratamento de erros
 
-### Console.log
+### 🚫 Console.log
 
 Espero que já tenham te falado, "console não é tratamento de erro". No backend faz sentido fazer um log de erro para podermos localizar a origem. No frontend você não vai escrever `console.log` ou `console.erorr` para o usuário, então podemos dar uma explicação visual para o usuário ou então apenas ignorar.
