@@ -1,0 +1,22 @@
+{
+  "name": "dojo-javaonjavascript",
+  "version": "1.0.0",
+  "description": "A maioria dos desenvolvedores frontend devem saber que o parte \"java\" do nome Javascript foi uma estratégia de marketing e não uma derivação da tecnologia.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomarcardoso/dojo-JavaOnJavascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jomarcardoso/dojo-JavaOnJavascript/issues"
+  },
+  "homepage": "https://github.com/jomarcardoso/dojo-JavaOnJavascript#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
